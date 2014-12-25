@@ -1,0 +1,13 @@
+body {
+	font-family: 'ITC Franklin Gothic', 'Franklin Gothic Medium', 'Franklin Gothic', Arial, sans-serif;
+}
+
+.top-bar {
+	background: #fff;
+}
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li a {
+	background: #fff;
+	color: #333;
+	text-transform: uppercase;
+}
