@@ -1,0 +1,31 @@
+/***** NAVIGATION MENU *****/
+
+
+.l-nav .name a.nav__logo {
+	display: block;
+	width: 155px;
+	height: $topbar-height;
+	margin-left: 15px;
+	margin-right: 10px;
+	background: url(images/logo-ag.png) center center no-repeat;
+	background-size: 155px $topbar-height;
+}
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li a {
+	color: $text-color;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.top-bar-section ul li {
+	background: none;
+}
+
+.top-bar-section .nav__left li>a {
+	font-size: $text-base !important;
+	font-family: $font-bold;
+}
+
+.top-bar-section .nav__right li>a {
+	font-size: $text-small;	
+}
