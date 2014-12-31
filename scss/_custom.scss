@@ -97,14 +97,9 @@ footer {
 	width: 100%;
 	min-height: 120px;
 	background: $oil;
-	text-align: center;
 	padding: 3em 0;
 	@include text-small-caps;
 	color: $base;
-}
-
-footer div.columns {
-	margin-top: 4em;
 }
 
 footer {
@@ -116,23 +111,6 @@ footer {
 	};
 }
 
-footer ul { 
-	list-style: none; 
-}
-
-footer ul li { 
-	display: inline-block; 
-	margin-left: 1em;
-	margin-right: 1em;
-	@include text-small-caps;	
-}
-
-.footer__locations {
-	background: url(images/logo-ag-white.png) center top no-repeat;
-	background-size: 140px auto;
-	padding-top: 40px;
-}
-
 .footer__contact-wrap {
 	display: table;
 	width: 100%;
@@ -141,13 +119,45 @@ footer ul li {
 .footer__contact {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
-	height: 160px;
+	height: 150px;
 }
 
 .link--contact {
 	@include text-large-lower;
 }
+
+@media #{$small-up} { 
+	footer, .footer__contact {
+		text-align: left;
+		line-height: 1.2rem;
+	}
+	footer div.columns {
+		margin-top: 1em;
+	}
+}
+
+@media #{$large-up} { 
+	footer {
+		text-align: left;
+		line-height: 1rem;
+	}
+	.footer__contact {
+		text-align: center;
+	}
+	.footer__locations {
+		background: url(images/logo-ag-white.png) left top no-repeat;
+		background-size: 140px auto;
+		padding-top: 40px;
+	}
+	.footer__links { 
+		padding-top: 40px;	
+	}	
+	footer div.columns {
+		margin-top: 4em;
+	}
+}
+
+
 
 
 
