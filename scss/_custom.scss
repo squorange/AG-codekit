@@ -5,6 +5,11 @@
 	letter-spacing: 0.05rem;
 }
 
+@mixin text-large-lower {
+	font-size: $text-large;
+	text-transform: lowercase;
+}
+
 @mixin text-small-caps {
 	font-size: $text-small;
 	text-transform: uppercase;
@@ -30,6 +35,10 @@
 }
 .row--header + div {
 	margin-bottom: 3em;
+}
+
+.row--first {
+	margin-top: 7em;
 }
 
 .form__input {
@@ -83,12 +92,61 @@
 //	}
 
 
+
+
+
 /***** FOOTER *****/
 
 footer {
 	width: 100%;
 	min-height: 120px;
-	background: #ececec;
+	background: $oil;
+	text-align: center;
+	padding: 3em 0;
+	@include text-small-caps;
+	color: $base;
+}
+
+footer div.columns {
+	margin-top: 4em;
+}
+
+footer {
+	a, a:hover {
+		color: $white;		
+	}
+	a:hover {
+		text-decoration: underline;
+	};
+}
+
+footer ul { 
+	list-style: none; 
+}
+
+footer ul li { 
+	display: inline-block; 
+	margin-left: 1em;
+	margin-right: 1em;
+	@include text-small-caps;	
+}
+
+.footer__locations {
+	background: url(images/logo-ag-white.png) center top no-repeat;
+	background-size: 140px auto;
+	padding-top: 40px;
+}
+
+.footer__contact {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 160px;
+}
+
+.link--contact {
+	@include text-large-lower;
 }
 
 

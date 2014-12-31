@@ -14793,6 +14793,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/logo-ag-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5144,
+		"inputAbbreviatedPath": "\/images\/logo-ag-white.png",
+		"outputAbbreviatedPath": "\/images\/logo-ag-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-ag.png": {
 		"fileType": 32768,
 		"ignore": 0,
