@@ -32,8 +32,16 @@
 	margin-bottom: 3em;
 }
 
-section + section div {
-	margin-top: 3em;
+.form__input {
+	@include text-base-caps;
+}
+
+// A fix for pre and postfix radius not working in Foundation. 
+.prePostfix-radius--fix-left {
+  border-radius: 3px 0 0 3px !important;
+}
+.prePostfix-radius--fix-right {
+  border-radius: 0 3px 3px 0 !important;  
 }
 
 
@@ -68,6 +76,19 @@ section + section div {
 
 .top-bar .toggle-topbar.menu-icon a {
 	font-family: $font-bold;	
+}
+
+//	.top-bar .toggle-topbar.menu-icon a span::after {
+// 		margin-top: -10px;
+//	}
+
+
+/***** FOOTER *****/
+
+footer {
+	width: 100%;
+	min-height: 120px;
+	background: #ececec;
 }
 
 

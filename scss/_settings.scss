@@ -617,7 +617,7 @@ $button-bg-hover: $ag-yellow;
 // $include-html-form-classes: $include-html-classes;
 
 // We use this to set the base for lots of form spacing and positioning styles
-// $form-spacing: rem-calc(16);
+$form-spacing: rem-calc(32);
 
 // We use these to style the labels in different ways
 // $form-label-pointer: pointer;
@@ -628,14 +628,14 @@ $button-bg-hover: $ag-yellow;
 // $form-label-small-transform: capitalize;
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
-// $input-font-color: rgba(0,0,0,0.75);
-// $input-font-size: rem-calc(14);
-// $input-bg-color: $white;
+$input-font-color: $oil;
+$input-font-size: $text-base;
+$input-bg-color: $ag-yellow;
 // $input-focus-bg-color: scale-color($white, $lightness: -2%);
-// $input-border-color: scale-color($white, $lightness: -20%);
+$input-border-color: scale-color($white, $lightness: -20%);
 // $input-focus-border-color: scale-color($white, $lightness: -40%);
-// $input-border-style: solid;
-// $input-border-width: 1px;
+$input-border-style: solid;
+$input-border-width: 0px;
 // $input-border-radius: $global-radius;
 // $input-disabled-bg: $gainsboro;
 // $input-disabled-cursor: $cursor-default-value;
