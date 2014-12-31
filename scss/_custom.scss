@@ -95,9 +95,8 @@
 
 footer {
 	width: 100%;
-	min-height: 120px;
 	background: $oil;
-	padding: 3em 0;
+	padding: 4em 0;
 	@include text-small-caps;
 	color: $base;
 }
@@ -153,7 +152,7 @@ footer {
 		padding-top: 40px;	
 	}	
 	footer div.columns {
-		margin-top: 4em;
+		margin-top: 3em;
 	}
 }
 
@@ -162,6 +161,11 @@ footer {
 
 
 /***** TILES *****/
+
+.l-tiles {
+	max-width: 2500px;
+	margin: 0 auto;
+}
 
 .tile-single {
 	float: left;
