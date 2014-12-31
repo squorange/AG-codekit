@@ -14804,6 +14804,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/share-tile01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56066,
+		"inputAbbreviatedPath": "\/images\/share-tile01.jpg",
+		"outputAbbreviatedPath": "\/images\/share-tile01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/share-tile02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68317,
+		"inputAbbreviatedPath": "\/images\/share-tile02.jpg",
+		"outputAbbreviatedPath": "\/images\/share-tile02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,

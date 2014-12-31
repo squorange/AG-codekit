@@ -1,5 +1,43 @@
-/***** NAVIGATION MENU *****/
 
+@mixin text-base-caps {
+	font-size: $text-base;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+@mixin text-small-caps {
+	font-size: $text-small;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.text--bold {
+	font-family: $font-bold;	
+	font-weight: bold;
+}
+
+.button {
+	@include text-base-caps;
+}
+.button:hover {
+	color: $oil;
+}
+
+.row--header {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.row--header + div {
+	margin-bottom: 3em;
+}
+
+section + section div {
+	margin-top: 3em;
+}
+
+
+/***** NAVIGATION MENU *****/
 
 .l-nav .name a.nav__logo {
 	display: block;
@@ -13,8 +51,6 @@
 
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li a {
 	color: $text-color;
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
 }
 
 .top-bar-section ul li {
@@ -22,10 +58,92 @@
 }
 
 .top-bar-section .nav__left li>a {
-	font-size: $text-base !important;
+	@include text-base-caps;
 	font-family: $font-bold;
 }
 
 .top-bar-section .nav__right li>a {
-	font-size: $text-small;	
+	@include text-small-caps;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	font-family: $font-bold;	
+}
+
+
+
+/***** TILES *****/
+
+.tile-single {
+	float: left;
+	background: $ag-yellow;	
+	position:relative;
+}
+
+	@media #{$small-up} { 
+		.tile-single {
+			@extend .tile-single;
+			width: 50%;
+		}
+	}
+
+	@media #{$medium-up} { 
+		.tile-single {
+			@extend .tile-single;		
+			width: 25%;
+		}
+	}
+
+.tile-single a:hover .tile__image {
+  opacity: 0.1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+.tile__image-wrap {
+	width:100%;
+	height:auto;
+}
+
+.tile__label-wrap {
+	position:absolute;
+		top:5px;
+		left:0;
+		right:0;
+		bottom:10px;
+		overflow:auto;
+}
+
+.tile__label-inner {
+	display:table;
+		width:100%;
+		height:100%;
+}
+
+@mixin tile__label {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;	
+	padding: 0 20px;	
+}
+
+.tile__label-title {
+	@include tile__label;	
+	color: $ag-yellow;
+	font-size: $text-large;	
+}
+
+.tile__label-caption {
+	@include tile__label;
+	@include text-base-caps;
+	color: $oil;
+	display: none;
+}
+
+.tile-single a:hover {
+	.tile__label-caption {
+		display: table-cell !important;
+	}
+	.tile__label-title {
+		display: none;
+	}
 }
