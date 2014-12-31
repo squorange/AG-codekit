@@ -14793,6 +14793,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/icon-sm-fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/images\/icon-sm-fb.png",
+		"outputAbbreviatedPath": "\/images\/icon-sm-fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon-sm-li.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1496,
+		"inputAbbreviatedPath": "\/images\/icon-sm-li.png",
+		"outputAbbreviatedPath": "\/images\/icon-sm-li.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon-sm-tw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1899,
+		"inputAbbreviatedPath": "\/images\/icon-sm-tw.png",
+		"outputAbbreviatedPath": "\/images\/icon-sm-tw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo-ag-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
